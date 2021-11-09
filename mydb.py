@@ -21,7 +21,7 @@ customers = [
   ('00020', 'Avery', 'Floyd', 'male'), ('00021', 'Elianna', 'Simmons', 'female'), ('00022', 'Rodney', 'Stout', 'male'),
   ('00023', 'Elaine', 'Mcintosh', 'female'), ('00024', 'Myla', 'Mckenzie', 'female'), ('00025', 'Alijah', 'Horn', 'female'),
   ('00026', 'Rohan', 'Peterson', 'male'), ('00027', 'Irene', 'Walters', 'female'), ('00028', 'Lilia', 'Sellers', 'female'),
-  ('00029', 'Perla', 'Jefferson', 'female'), ('00030', 'Ashley', 'Klein', 'female')
+  ('00029', 'Perla1', 'Jefferson', 'female'), ('00030', 'Ashley', 'Klein', 'female')
 ]
 
 cur.executemany("INSERT INTO users VALUES(?, ?, ?, ?);", customers)
