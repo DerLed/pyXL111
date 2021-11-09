@@ -11,7 +11,7 @@ my_workbook = load_workbook('C:/Копия журнал верификации �
 my_worksheet = my_workbook.active
 print(my_worksheet.max_row)
 
-thickness = 10
+thickness = 100
 count = 0
 column_template = [3, 5, 6, 7, 8, 9]
 
