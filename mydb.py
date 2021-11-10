@@ -1,11 +1,11 @@
 import sqlite3
 
 
-conn = sqlite3.connect('cert_db.db')
+conn = sqlite3.connect('cert_db_old.db')
 cur = conn.cursor()
 
 cur.execute("""CREATE TABLE IF NOT EXISTS cert_db(
-   cert_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+   cert_id INTEGER PRIMARY KEY,
    thickness TEXT,
    metal_grade TEXT,
    gost TEXT,
