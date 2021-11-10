@@ -19,3 +19,7 @@ dictionary_template = {
     'additional_data': 24  # Доболнительные данные
     # chemical_composition = []  # Хим.состав
 }
+
+if __name__ == '__main__':
+    for key in dictionary_template.keys():
+        print(key + ' TEXT,' )
